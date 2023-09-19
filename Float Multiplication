@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    float A, B, product;
+    printf("Enter A and B:");
+    scanf("%f %f",&A,&B);
+    product = A*B;
+    printf("Product of entered numbers is:%.3f", product);
+    return 0;
+}
+
+
+
+
+/*
+Output:
+Enter A and B:0.1 10 
+Product of entered numbers is:1.000
+*/
