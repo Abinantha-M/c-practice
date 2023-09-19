@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main(void)
+{
+	auto int view();
+	view(); 
+	printf("Main\n");
+	int view()
+	{
+		printf("Start\n");
+		return 1;
+	}
+	printf("End");
+	return 0;
+}
+
+
+
+/*
+Output:
+
+Start
+Main
+End
+
+*/
