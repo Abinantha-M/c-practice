@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int sum(int a, int b)
+{
+    return a + b;
+}
+
+int main()
+{
+    int a,b;
+    printf("Enter A & B :");
+    scanf("%d %d",&a,&b);
+    int add = sum(a, b);
+    printf("Sum is: %d", add);
+    return 0;
+}
+
+
+
+
+
+
+/*
+Output:
+
+Enter A & B :25 35
+Sum is: 60
+
+*/
