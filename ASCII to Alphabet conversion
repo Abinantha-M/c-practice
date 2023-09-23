@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the ASCII Value : ");
+    scanf("%d",&n);
+    printf("The Alphabet : %c",n);
+    return 0;
+}
+
+
+
+
+/*
+
+Output:
+
+Enter the ASCII Value : 65
+The Alphabet : A
+
+*/
