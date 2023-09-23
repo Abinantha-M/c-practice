@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    long long num;
+    int count=0;
+    printf("Enter the Number : ");
+    scanf("%lld",&num);
+    do
+    {
+        num/=10;
+        ++count;
+    }
+    while(num !=0);
+    printf("No. of Digits : %d",count);
+}
+
+
+
+/*
+
+Output:
+
+Enter the Number : 123456789
+No. of Digits : 9
+
+*/
