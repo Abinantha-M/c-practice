@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int a,o,rev=0;
+    printf("Enter the Number : ");
+    scanf("%d",&a);
+    while(a)
+    {
+        o=a%10;
+        rev=rev*10+o;
+        a /=10;
+    }
+    printf("Reverse : ");
+    printf("%d",rev);
+}
+
+
+
+/*
+
+Output:
+
+Enter the Number : 123456789
+Reverse : 987654321
+
+*/
