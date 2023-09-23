@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter the month in Number : ");
+    scanf("%d",&n);
+    printf("Number of Days : ");
+    if(n>12)
+    {
+        printf("invalid");
+        return 0;
+    }
+    else if(n==1 || n==3 || n==5 || n==7 || n==8 || n==10 || n==12)
+        printf("31");
+    else if (n==2)
+        printf("28 or 29");
+    else
+        printf("30");
+    return 0;
+}
+
+
+
+/*
+
+Output:
+
+Enter the month in Number : 11
+Number of Days : 30
+
+*/
